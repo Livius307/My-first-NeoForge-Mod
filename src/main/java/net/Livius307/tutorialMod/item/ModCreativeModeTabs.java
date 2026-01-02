@@ -1,7 +1,7 @@
-package net.Livius307.tutorialMod.block;
+package net.Livius307.tutorialMod.item;
 
 import net.Livius307.tutorialMod.TutorialMod;
-import net.Livius307.tutorialMod.item.ModItems;
+import net.Livius307.tutorialMod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BISMUTH_BLOCK);
                         output.accept(ModBlocks.BISMUTH_ORE);
+                        output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
                     })
                     .build());
 

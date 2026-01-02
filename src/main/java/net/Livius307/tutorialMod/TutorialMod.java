@@ -1,7 +1,7 @@
 package net.Livius307.tutorialMod;
 
 import net.Livius307.tutorialMod.block.ModBlocks;
-import net.Livius307.tutorialMod.block.ModCreativeModeTabs;
+import net.Livius307.tutorialMod.item.ModCreativeModeTabs;
 import net.Livius307.tutorialMod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
